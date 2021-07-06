@@ -78,6 +78,9 @@ li a {
 .about-me-text {
   margin-top: 8%;
 }
+.about-me-text p {
+  color: black;
+}
 .about-me-text h1 {
   font-size: 30px;
 }
