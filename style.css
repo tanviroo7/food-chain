@@ -1,0 +1,215 @@
+/* GLOBAL */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+.green-color {
+  color: rgb(46, 247, 46);
+}
+.flex-container {
+  display: flex;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+
+.link-button {
+  text-decoration: none;
+  color: black;
+  background-image: linear-gradient(rgb(46, 247, 46), yellow);
+  padding: 10px 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/* GLOBAL */
+
+/* START OF NAV */
+.nav {
+  height: 5rem;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+}
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-links {
+  justify-content: space-between;
+}
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+/* END OF NAV */
+
+/* START OF TOP BANNER */
+.top-banner-text {
+  margin-top: 10%;
+}
+.top-banner-text h1 {
+  font-size: 50px;
+}
+.top-banner-text p {
+  margin-bottom: 7%;
+}
+
+/* END OF TOP BANNER */
+
+/* START OF ABOUT ME */
+.female-portrait {
+  margin-top: 30%;
+}
+.about-me-text p {
+  margin-bottom: 7%;
+}
+.about-me-text {
+  margin-top: 8%;
+}
+.about-me-text h1 {
+  font-size: 30px;
+}
+.about-me {
+  background-image: url(images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* END OF ABOUT ME */
+/* START OF MY RECIPE */
+.my-recipe {
+  margin-bottom: 5%;
+}
+
+.recipe-text {
+  text-align: center;
+}
+.recipe-text h1 {
+  font-size: 30px;
+}
+.recipe-text p {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.cards {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.card img {
+  height: 13rem;
+  width: 15rem;
+  padding: 10px;
+
+  object-fit: cover;
+  -o-object-fit: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.card {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  box-shadow: 10px 13px 30px -1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 10px 13px 30px -1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 10px 13px 30px -1px rgba(0, 0, 0, 0.48);
+}
+.card h1 {
+  margin-left: 5%;
+}
+.card p {
+  margin-left: 5%;
+}
+.card-info h1 {
+  font-size: 20px;
+}
+.card-info p {
+  width: 50%;
+}
+/* END OF MY RECIPE */
+
+/* START OF HOT DEAL */
+.input-group {
+  width: 80vw;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.form-control {
+  flex: 1 1 auto;
+}
+
+.form-control,
+.btn-submit {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 2px;
+  background: transparent;
+  text-transform: uppercase;
+  outline: none;
+  border: 2px solid rgb(46, 247, 46);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn-submit {
+  text-decoration: none;
+}
+
+.btn-submit:hover {
+  color: white;
+  background-image: linear-gradient(rgb(46, 247, 46), yellow);
+}
+
+.title-wrapper {
+  text-align: center;
+  font-size: 30px;
+}
+.deals {
+  margin-bottom: 5%;
+}
+/* END OF HOT DEAL */
+
+/* START OF FOOTER */
+.bg-color {
+  background-color: black;
+}
+
+.footer h1,
+p {
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  margin: 0;
+}
+/* END OF FOOTER  */
