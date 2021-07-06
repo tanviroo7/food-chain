@@ -159,12 +159,13 @@ li a {
 .counter {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   padding: 40px;
   box-shadow: 10px 13px 30px -1px rgba(0, 0, 0, 0.48);
   width: 60%;
-  margin-left: 200px;
+
   background: whitesmoke;
-  margin-top: 50px;
+
   height: 80px;
   border-radius: 10px;
 }
@@ -174,14 +175,17 @@ li a {
 
 .left {
   margin-right: 110px;
+  text-align: center;
 }
 
 .middle {
   margin-left: 60px;
+  text-align: center;
 }
 
 .right {
   margin-left: 190px;
+  text-align: center;
 }
 /* end of counter */
 
